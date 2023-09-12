@@ -1,5 +1,50 @@
-h1 {
-    color: red;
+.titulo-de-artigo {
+    color: #040D12;
     line-height: 2;
     font-weight: bold;
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulo-de-pagina {
+    color: #040D12;
+    line-height: 1.8;
+    font-weight: bold;
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulo-de-subtitulo {
+    color: #040D12;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    margin: 20px 50px;  
+    background-color: #93B1A6; 
+     
+}
+
+p {
+    line-height: 1.2;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.paragrafo-cor {
+    background-color: cadetblue;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.autor-do-artigo {
+    color: #5C8374;
+    font-weight: bold;
+    font-style: italic;
+    margin: 5px 0;
+    
 }
