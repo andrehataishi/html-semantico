@@ -26,6 +26,7 @@
 body {
     margin: 20px 50px;  
     background-color: #93B1A6; 
+    font-family: Arial, Helvetica, sans-serif;
      
 }
 
@@ -48,3 +49,25 @@ p {
     margin: 5px 0;
     
 }
+
+.indice {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style:disc;
+    padding: 20px;
+}
+
+.titulo-de-sobre-nos {
+        color: #040D12;
+        line-height: 1.5;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-sobre-nos {
+    background-color: #5f9ea0;
+    padding: 50px;
+    border-radius: 20px;
+}
+
