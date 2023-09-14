@@ -58,16 +58,32 @@ p {
 }
 
 .titulo-de-sobre-nos {
-        color: #040D12;
-        line-height: 1.5;
-        font-weight: bold;
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
+    color: #040D12;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .texto-sobre-nos {
     background-color: #5f9ea0;
     padding: 50px;
     border-radius: 20px;
+    margin: 0;
 }
 
+p {
+    background-color: #5f9ea0;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 0;
+}
+
+
+/* tirar a parte de cima com o irmao adjascente */
+
+p + p{ 
+    padding-top: 0;
+    
+  }
