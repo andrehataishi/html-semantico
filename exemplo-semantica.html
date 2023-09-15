@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | Exemplo de Semântica</title>
+</head>
+<body>
+    <header>
+        <!-- Aqui vai o cabeçalho da página-->
+        <nav>
+            <!-- Menu de navegação principal -->
+        </nav>
+    </header>
+
+    <main>
+        <!-- Aqui vai o conteúdo principal da página -->
+
+        <article>
+            <!-- artigo ou conteúdo autocontido, não necessariamente contectado ao assundo da página -->
+
+            <header>
+                <!-- Cabeçalho do artigo -->
+            </header>
+
+            <footer>
+                <!-- Rodapé do artigo -->
+            </footer>
+        </article>
+
+        <section>
+            <!-- Seção relacionada com o conteudo do site  -->
+        </section>
+
+                <!-- tr = table row coluna -->
+                <!-- td = table data conteudo -->
+                <!-- th = table heading = titulo -->
+                <!-- thead = cabeçalho da tabela -->
+                <!-- tbody = corpo da tabela  -->
+                <!-- td*3  -->
+
+        <style>
+            table, td, tr, th {
+                border: 1px solid #000;
+            }
+        </style>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Fruta</th>
+                    <th>Local</th>
+                    <th>Preço</th>
+               </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Banana</td>
+                    <td>Feira</td>
+                    <td>$ 7.00</td>
+                </tr>
+
+                <tr>
+                    <td>Maça</td>
+                    <td>Hortifruti</td>
+                    <td>$ 10.00</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <!-- colspan adiciona um espaço/une coluna -->
+                    <td colspan="2">Total</td>
+                    <td rowspan="2">$ 17.0</td>
+                    <!-- rowspan adiciona um espaço/une/mescla linhas -->
+                </tr>                            
+            </tfoot>
+        </table>
+    </main>
+
+    <aside>
+        <!-- Conteúdo secundário e lateral da página, mas relacioado ao principal -->
+
+        <nav>
+            <!-- Menu de naveção lateral -->
+        </nav>
+
+    </aside>
+
+    <footer>
+        <!-- Aqui vai o rodapé da página -->
+
+        <nav>
+            <!-- Menu de navegação do rodapé  -->
+        </nav>
+    </footer>
+
+    <details>
+        <!-- esconde o texto -->
+        <summary>
+            <!-- Qual o melhor plano para iniciantes -->
+        </summary>
+        <!-- <p>Ford Enter </p> -->
+    </details>
+    
+</body>
+</html>
