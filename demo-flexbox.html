@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo do Flexbox</title>
+
+
+    <style>
+        .elemento-contido, .nao-contido {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 1px solid black;
+        }
+
+        .nao-contido{
+            background-color:yellow;
+        }
+
+        .elemento-container{
+            height: 400px;
+            border: 1px solid black; 
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>Demonstração do flexbox</h1>
+    <h2>Flexbox → Flexible Box → Caixa flexível</h2>
+
+    <div class="elemento-container">
+        <div class="elemento-contido"style="order:1;">1</div>
+        <div class="elemento-contido"style="order:4;">2</div>
+        <div class="elemento-contido"style="order:3;">3</div>
+        <div class="elemento-contido"style="order:2;">4</div>
+        <div class="elemento-contido"style="order:5;">5</div>
+        <div class="elemento-contido"style="order:7;">6</div>
+        <div class="elemento-contido"style="order:6;">7</div>
+    </div>
+
+    <div class="nao-contido">N</div>
+    <div class="nao-contido">N</div>
+    <div class="nao-contido">N</div>
+</body>
+
+
+</html>
